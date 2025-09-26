@@ -1,0 +1,34 @@
+{
+  "name": "langchain",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "buildx": "NODE_OPTIONS='--max-old-space-size=8192' npx tsc",
+    "start": "npm run build && node --env-file=.env dist/main",
+    "startx": "npm run buildx && node --env-file=.env dist/main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.47",
+    "@langchain/core": "^0.3.72",
+    "@langchain/langgraph": "^0.4.9",
+    "@langchain/mcp-adapters": "^0.4.2",
+    "@langchain/ollama": "^0.2.4",
+    "@langchain/openai": "^0.6.11",
+    "@langchain/tavily": "^0.1.5",
+    "composio-core": "^0.5.39",
+    "dayjs": "^1.11.13",
+    "langchain": "^0.3.6",
+    "langfuse-langchain": "^3.38.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

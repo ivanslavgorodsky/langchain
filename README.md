@@ -4,6 +4,14 @@ Got memory allocation error when trying to build this simple app.
 
 macOS 14.7.6 CPU M1PRO 16GB node v20.19.4
 
+Sample .env file
+```
+NODE_ENV=local
+OPENAI_API_KEY=
+TAVILY_API_KEY=
+THREAD_ID=91e065dd-a4aa-4220-9c05-5ec4914ed088
+```
+
 ```
 > langchain@0.0.1 start
 > npm run build && node --env-file=.env dist/main

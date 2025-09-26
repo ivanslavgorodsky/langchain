@@ -2,7 +2,7 @@
 
 Got memory allocation error when trying to build this simple app.
 
-macOS 14.7.6 CPU M1PRO 16GB RAM
+macOS 14.7.6 CPU M1PRO 16GB node v20.19.4
 
 ```
 > langchain@0.0.1 start

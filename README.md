@@ -1,6 +1,10 @@
 # Sample Langchain App
 
 Got memory allocation error when trying to build this simple app.
+ProductName:		macOS
+ProductVersion:		14.7.6
+BuildVersion:		23H626
+CPU M1 16GB RAM
 
 ```
 > langchain@0.0.1 start
